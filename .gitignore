@@ -1,0 +1,41 @@
+# OS/editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+*.token
+
+# Logs and temporary output
+*.log
+logs/*.txt
+tmp/
+temp/
+
+# Build/test artifacts
+coverage/
+dist/
+build/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Keep documentation folders present in Git
+!logs/README.md
+!screenshots/README.md
