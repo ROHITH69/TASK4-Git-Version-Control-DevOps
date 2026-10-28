@@ -83,3 +83,10 @@ git commit
 Do not create a conflict in `main` just for a screenshot. The task does not require a forced conflict.
 git diff -- docs/GIT_WORKFLOW.md
 git status
+
+## Feature Branch Demonstration
+
+This section demonstrates a feature developed on a dedicated branch,
+reviewed through a pull request, and merged into the development branch.
+
+The workflow keeps changes isolated until they have been reviewed.
